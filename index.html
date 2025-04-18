@@ -43,7 +43,8 @@
   <input type="number" id="endYear" placeholder="e.g., 2023">
 
   <button onclick="calculateDepreciation()">Calculate</button>
-
+  <label for="formula">Formula Used:</label>
+  <input type="text" id="formula" readonly value="Value = Principal × (1 - Rate)^Years" style="font-style: italic;">
   <div id="result"></div>
   <ul id="yearlyBreakdown"></ul>
 
